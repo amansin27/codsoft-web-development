@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    scroll-behavior: smooth;
+    background: #f4f4f4;
+}
+
+/* Header Styles #6e8efb ,  #a777e3 */
+header {
+    background: linear-gradient(135deg, #FFD3B6,#508D4E);
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    position: absolute;
+    top: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f4f4f4;
+}
+
+.hero {
+    margin-top: 4em;
+    padding: 2em;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background: #fff;
+    color: #FFD3B6;
+    padding: 0.5em 1.5em;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background: #FFD3B6;
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    position: relative;
+    color: #555;
+}
+
+section h2::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #FFD3B6;
+    display: block;
+    margin: 0.5em auto;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #555;
+}
+
+.service {
+    background: #fff;
+    margin: 1em 0;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service h3 {
+    margin-top: 0;
+    color:#FFD3B6;
+}
+
+.service p {
+    color: #666;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2em;
+}
+
+#contact a {
+    color: #FFD3B6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #FFD3B6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
